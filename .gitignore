@@ -54,3 +54,6 @@ android/key.properties
 # Local only — kept out of the graded repository
 /README.md
 /docs/exam-prep.md
+
+# Gradle build output (Android)
+/android/build/
