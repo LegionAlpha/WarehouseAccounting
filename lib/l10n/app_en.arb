@@ -1,0 +1,180 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Warehouse",
+  "@appTitle": { "description": "Application name shown on the launcher and app bars" },
+
+  "splashTagline": "Warehouse inventory tracking",
+  "@splashTagline": { "description": "Subtitle shown under the app name on the splash screen" },
+
+  "actionSave": "Save",
+  "actionCancel": "Cancel",
+  "actionDelete": "Delete",
+  "actionEdit": "Edit",
+  "actionRetry": "Retry",
+  "actionOk": "OK",
+  "actionClose": "Close",
+  "actionContinue": "Continue",
+  "actionConfirm": "Confirm",
+  "loading": "Loading…",
+  "errorGeneric": "Something went wrong. Please try again.",
+  "fieldRequired": "This field is required",
+
+  "loginTitle": "Sign in",
+  "loginSubtitle": "Welcome back to the warehouse",
+  "registerTitle": "Create account",
+  "registerSubtitle": "Join the warehouse team",
+  "fieldName": "Name",
+  "fieldEmail": "Email",
+  "fieldPassword": "Password",
+  "fieldConfirmPassword": "Confirm password",
+  "buttonSignIn": "Sign in",
+  "buttonSignUp": "Sign up",
+  "linkNoAccount": "No account? Sign up",
+  "linkHaveAccount": "Already have an account? Sign in",
+  "validationEmailRequired": "Enter your email",
+  "validationEmailInvalid": "Enter a valid email",
+  "validationPasswordRequired": "Enter your password",
+  "validationPasswordTooShort": "Password must be at least {count} characters",
+  "@validationPasswordTooShort": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "validationNameRequired": "Enter your name",
+  "validationConfirmMismatch": "Passwords do not match",
+  "errorInvalidCredentials": "Invalid email or password",
+  "errorEmailTaken": "This email is already registered",
+  "demoAdminHint": "Demo admin: {email} / {password}",
+  "@demoAdminHint": {
+    "placeholders": {
+      "email": { "type": "String" },
+      "password": { "type": "String" }
+    }
+  },
+
+  "navCatalog": "Catalog",
+  "navScan": "Scan",
+  "navProfile": "Profile",
+
+  "catalogTitle": "Products",
+  "catalogSearchHint": "Search products",
+  "catalogEmpty": "No products yet",
+  "catalogEmptyAdmin": "Tap + to add the first product",
+  "catalogEmployeeEmpty": "Products added by an administrator will appear here",
+  "filterAll": "All",
+  "filterAvailable": "Available",
+  "filterTaken": "Taken",
+
+  "statusAvailable": "Available",
+  "statusTaken": "Taken",
+
+  "productDetailTitle": "Product",
+  "sectionDescription": "Description",
+  "sectionStatus": "Status",
+  "sectionBorrowInfo": "Borrow info",
+  "sectionHistory": "History",
+  "noDescription": "No description provided",
+  "takenBy": "Taken by {name}",
+  "@takenBy": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "takenAt": "Taken on {date}",
+  "@takenAt": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "historyEmpty": "No actions recorded yet",
+  "historyTook": "{name} took the item",
+  "@historyTook": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "historyReturned": "{name} returned the item",
+  "@historyReturned": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "buttonShowQr": "Show QR code",
+  "buttonTake": "Take",
+  "buttonReturn": "Return",
+
+  "addProductTitle": "Add product",
+  "addProductName": "Product name",
+  "addProductDescription": "Description",
+  "addProductImage": "Product photo",
+  "addProductPickCamera": "Camera",
+  "addProductPickGallery": "Gallery",
+  "addProductRemoveImage": "Remove photo",
+  "addProductImageHint": "Add a photo so the item is easy to recognize",
+  "validationProductNameRequired": "Enter a product name",
+  "productCreated": "Product created",
+  "buttonCreateProduct": "Create product",
+
+  "qrTitle": "Product QR code",
+  "qrHint": "Scan this code to take or return the item",
+  "qrProductId": "Product ID",
+  "buttonShare": "Share",
+
+  "scanTitle": "Scan QR code",
+  "scanHint": "Point the camera at a product QR code",
+  "scanTorch": "Torch",
+  "scanFlip": "Flip camera",
+  "scanErrorNoCamera": "No camera available on this device",
+  "scanErrorPermission": "Camera permission is required to scan QR codes",
+  "scanErrorInvalid": "This QR code is not a valid product code",
+  "scanErrorEmpty": "The QR code is empty",
+  "scanErrorNotFound": "Product not found in the warehouse",
+  "buttonOpenSettings": "Open settings",
+  "buttonGrantPermission": "Grant permission",
+
+  "actionResultTaken": "You took \"{name}\"",
+  "@actionResultTaken": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "actionResultReturned": "You returned \"{name}\"",
+  "@actionResultReturned": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "actionErrorAlreadyTaken": "\"{name}\" is already taken by someone else",
+  "@actionErrorAlreadyTaken": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "actionErrorNotYours": "\"{name}\" was taken by another user, so you can't return it",
+  "@actionErrorNotYours": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+
+  "roleAdmin": "Administrator",
+  "roleEmployee": "Employee",
+  "permissionDeniedCreate": "Only administrators can add products",
+
+  "usersTitle": "Users",
+  "usersEmpty": "No users",
+  "youLabel": "You",
+  "changeRole": "Change role",
+  "roleChanged": "Role updated",
+  "registeredOn": "Registered {date}",
+  "@registeredOn": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+
+  "profileTitle": "Profile",
+  "settingsTitle": "Settings",
+  "settingsAppearance": "Appearance",
+  "settingsThemeMode": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "settingsLanguage": "Language",
+  "languageSystem": "System",
+  "languageEnglish": "English",
+  "languageRussian": "Russian",
+  "settingsManageUsers": "Manage users",
+  "settingsSeedData": "Generate test products",
+  "seedDataDone": "Added {count} test products",
+  "@seedDataDone": { "placeholders": { "count": { "type": "int" } } },
+  "settingsMyBorrowed": "Items I borrowed",
+  "myBorrowedEmpty": "You haven't taken any items",
+  "logout": "Log out",
+  "logoutConfirm": "Log out of your account?",
+  "greeting": "Hello, {name}",
+  "@greeting": {
+    "placeholders": { "name": { "type": "String" } }
+  }
+}

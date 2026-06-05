@@ -1,0 +1,35 @@
+# Static analysis configuration for the Warehouse Accounting app.
+#
+# Run from the command line with `flutter analyze`. Generated files (drift,
+# freezed, json_serializable, gen-l10n) are excluded so codegen output never
+# fails the analyzer.
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "lib/l10n/app_localizations*.dart"
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    # Treat a few correctness-sensitive lints as warnings so they stay visible.
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    prefer_const_constructors: true
+    prefer_const_constructors_in_immutables: true
+    prefer_const_declarations: true
+    prefer_final_locals: true
+    always_declare_return_types: true
+    unawaited_futures: true
+    require_trailing_commas: true
+    sort_child_properties_last: true
+    use_super_parameters: true
+    avoid_redundant_argument_values: true
+    directives_ordering: true

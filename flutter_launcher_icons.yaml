@@ -1,0 +1,10 @@
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/branding/app_icon.png"
+  # Android adaptive icon (API 26+): gradient background + white glyph foreground.
+  adaptive_icon_background: "assets/branding/app_icon_background.png"
+  adaptive_icon_foreground: "assets/branding/app_icon_foreground.png"
+  min_sdk_android: 23
+  # iOS icons may not contain an alpha channel.
+  remove_alpha_ios: true

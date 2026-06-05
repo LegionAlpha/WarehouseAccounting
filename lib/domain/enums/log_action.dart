@@ -1,0 +1,1 @@
+enum LogAction { taken, returned }

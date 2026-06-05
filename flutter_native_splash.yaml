@@ -1,0 +1,12 @@
+flutter_native_splash:
+  # Brand indigo window background with the white warehouse logo centered.
+  color: "#4F46E5"
+  image: assets/branding/splash_logo.png
+  android: true
+  ios: true
+  web: false
+
+  # Android 12+ uses the system splash API (icon centered on a colored window).
+  android_12:
+    color: "#4F46E5"
+    image: assets/branding/splash_logo.png
